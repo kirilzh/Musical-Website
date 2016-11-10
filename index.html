@@ -124,9 +124,37 @@
       width: 100%;
       height: auto;
       z-index: -1;
-      opacity: 0.5;
-      filter: alpha(opacity=50);
+      opacity: 10.5;
+      filter: alpha(opacity= 150);
     }
+
+    .ghost-button-full-color {
+      display: inline-block;
+      font-size: 14px;
+      width: 200px;
+      height: 30px;
+      padding: 0px;
+      color: #fff;
+      background-color: transparent;
+      border: 2px solid #fff;
+      text-align: center;
+      outline: none;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color 0.3s ease-out,
+                  background-color 0.3s ease-out,
+                  border-color 0.3s ease-out;
+    }
+    .ghost-button-full-color:hover,
+    .ghost-button-full-color:active {
+      background-color: #9363c4;
+      border-color: #9363c4;
+      color: #fff;
+      transition: color 0.3s ease-in,
+                  background-color 0.3s ease-in,
+                  border-color 0.3s ease-in;
+    }
+
     </style>
 
 </head>
@@ -149,6 +177,10 @@
                
                 <ul class="list-inline cta-list">
                     <li>
+                        <a href="#previews" class="ghost-button-full-color">View Demos</a>
+                    </li>
+                    <li>
+                        <a href="docs/index.html" class="ghost-button-full-color">Documentation</a>
                         <a href="#previews" class="btn btn-outline-light page-scroll-demo">Order Tickets</a>
                     </li>
                 </ul>
