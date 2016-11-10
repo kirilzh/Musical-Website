@@ -39,7 +39,7 @@
     <style>
     .demo-header {
         text-align: center;
-        background: url('img/agency/backgrounds/bg-header.jpg') no-repeat center center scroll;
+        /*background: url('img/agency/backgrounds/bg-header.jpg') no-repeat center center scroll;*/
         color: #fff;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -47,49 +47,70 @@
         -o-background-size: cover;
         padding: 100px 0;
     }
-    
+
     .preview-pane {
         text-align: center;
         margin-bottom: 30px;
         padding: 15px;
     }
-    
+
     .preview-pane hr {
         max-width: 50px;
         margin: 5px auto;
     }
-    
+
     .preview-pane a {
         color: #222;
     }
-    
+
     .preview-pane a:focus {
         outline: none;
     }
-    
+
     .preview-pane a img {
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
         transition: all 0.5s;
     }
-    
+
     .preview-pane a:hover img {
         opacity: 0.5;
     }
-    
+
     .label-primary {
         background-color: #EF4035;
     }
-    
+
     .cta-list {
         margin-top: 30px;
+    }
+
+    .main-heading
+    {
+      background:transparent;
+    	background-size:cover;
+    	background-attachment: fixed;
+    	color: #cfcfcf;
+
+    }
+    #bg-video{
+      background: url(..assets/main.jpg) no-repeat;
+      background-size: cover;
+      position: absolute;
+      width: 100%;
+      height: auto;
+      z-index: -1;
     }
     </style>
 
 </head>
 
 <body>
-
+  <div>
+  <section>
+  <video preload autoplay loop muted id="bg-video">
+    <source src="assets/gopro.mp4" type="video/mp4">
+  </video>
     <div class="demo-header">
         <div class="demo-header-content">
             <div class="container">
@@ -107,6 +128,9 @@
             </div>
         </div>
     </div>
+  </section>
+</div>
+
     <div class="container" id="previews">
         <div class="row content-row">
             <div class="col-md-4">
