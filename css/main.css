@@ -1,0 +1,28 @@
+body{
+  background-color: #132;
+}
+
+video{
+  width: 100%;
+}
+
+
+.navbar{
+  /*background-color: transparent;*/
+  position: fixed;
+  left:0px;
+  right: 0px;
+}
+
+.navbar-nav li a{
+  line-height: 50px;
+  color: white;
+}
+
+li a:hover{
+  color: green;
+}
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
