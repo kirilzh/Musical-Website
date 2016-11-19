@@ -6,7 +6,51 @@ video{
   width: 100%;
 }
 
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: 100%;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 3;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 4px;
+  }
 
+  .text--white {
+      color: white;
+  }
+
+  .bg--transparent-white {
+    background: black;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .btn--clear {
+    padding: 0 28px;
+    border: 2px solid #FFF;
+    line-height: 42px;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.sponsor{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-color: white;
+}
 .navbar{
   /*background-color: transparent;*/
   position: fixed;
@@ -26,3 +70,24 @@ li a:hover{
 .right.carousel-control, .left.carousel-control {
     display: none;
 }
+
+hr {
+  color: black;
+}
+
+img{
+  max-width: 100%;
+}
+#roa{
+  max-width: 50%;
+  padding-bottom: 180px;
+}
+#orginizer{
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
