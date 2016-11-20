@@ -106,6 +106,15 @@ img{
   height: 300px;
 }
 
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+li{
+  display: inline;
+}
 /*QUOTATION CARD CSS DON'T EDIT*/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200italic);
 
